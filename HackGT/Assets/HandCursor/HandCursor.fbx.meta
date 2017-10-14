@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: 7c7ec83f96563402e89b64ac24374e94
+timeCreated: 1444737423
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Hand
+    100002: //RootNode
+    100004: Joint
+    100006: Joint.1
+    100008: Joint.10
+    100010: Joint.11
+    100012: Joint.12
+    100014: Joint.13
+    100016: Joint.14
+    100018: Joint.15
+    100020: Joint.16
+    100022: Joint.17
+    100024: Joint.18
+    100026: Joint.19
+    100028: Joint.2
+    100030: Joint.20
+    100032: Joint.3
+    100034: Joint.4
+    100036: Joint.5
+    100038: Joint.6
+    100040: Joint.7
+    100042: Joint.8
+    100044: Joint.9
+    400000: Hand
+    400002: //RootNode
+    400004: Joint
+    400006: Joint.1
+    400008: Joint.10
+    400010: Joint.11
+    400012: Joint.12
+    400014: Joint.13
+    400016: Joint.14
+    400018: Joint.15
+    400020: Joint.16
+    400022: Joint.17
+    400024: Joint.18
+    400026: Joint.19
+    400028: Joint.2
+    400030: Joint.20
+    400032: Joint.3
+    400034: Joint.4
+    400036: Joint.5
+    400038: Joint.6
+    400040: Joint.7
+    400042: Joint.8
+    400044: Joint.9
+    4300000: Hand
+    7400000: Idle
+    7400002: Gesture
+    7400004: Fist
+    7400006: Open
+    7400008: Point
+    7400010: Pick
+    7400012: Grab
+    9500000: //RootNode
+    13700000: Hand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Gesture
+      takeName: Take 0
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Joint
+        weight: 1
+      - path: Joint/Joint.1
+        weight: 1
+      - path: Joint/Joint.1/Joint.2
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4/Joint.5
+        weight: 1
+      - path: Joint/Joint.1/Joint.6
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8/Joint.9
+        weight: 1
+      - path: Joint/Joint.1/Joint.10
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12/Joint.13
+        weight: 1
+      - path: Joint/Joint.1/Joint.14
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16/Joint.17
+        weight: 1
+      - path: Joint/Joint.1/Joint.18
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19/Joint.20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 0
+      firstFrame: 32
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Joint
+        weight: 1
+      - path: Joint/Joint.1
+        weight: 1
+      - path: Joint/Joint.1/Joint.2
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4/Joint.5
+        weight: 1
+      - path: Joint/Joint.1/Joint.6
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8/Joint.9
+        weight: 1
+      - path: Joint/Joint.1/Joint.10
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12/Joint.13
+        weight: 1
+      - path: Joint/Joint.1/Joint.14
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16/Joint.17
+        weight: 1
+      - path: Joint/Joint.1/Joint.18
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19/Joint.20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fist
+      takeName: Take 0
+      firstFrame: 123
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Joint
+        weight: 1
+      - path: Joint/Joint.1
+        weight: 1
+      - path: Joint/Joint.1/Joint.2
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4/Joint.5
+        weight: 1
+      - path: Joint/Joint.1/Joint.6
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8/Joint.9
+        weight: 1
+      - path: Joint/Joint.1/Joint.10
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12/Joint.13
+        weight: 1
+      - path: Joint/Joint.1/Joint.14
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16/Joint.17
+        weight: 1
+      - path: Joint/Joint.1/Joint.18
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19/Joint.20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 0
+      firstFrame: 152
+      lastFrame: 178
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Joint
+        weight: 1
+      - path: Joint/Joint.1
+        weight: 1
+      - path: Joint/Joint.1/Joint.2
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4/Joint.5
+        weight: 1
+      - path: Joint/Joint.1/Joint.6
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8/Joint.9
+        weight: 1
+      - path: Joint/Joint.1/Joint.10
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12/Joint.13
+        weight: 1
+      - path: Joint/Joint.1/Joint.14
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16/Joint.17
+        weight: 1
+      - path: Joint/Joint.1/Joint.18
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19/Joint.20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Point
+      takeName: Take 0
+      firstFrame: 180
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Joint
+        weight: 1
+      - path: Joint/Joint.1
+        weight: 1
+      - path: Joint/Joint.1/Joint.2
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4/Joint.5
+        weight: 1
+      - path: Joint/Joint.1/Joint.6
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8/Joint.9
+        weight: 1
+      - path: Joint/Joint.1/Joint.10
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12/Joint.13
+        weight: 1
+      - path: Joint/Joint.1/Joint.14
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16/Joint.17
+        weight: 1
+      - path: Joint/Joint.1/Joint.18
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19/Joint.20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Pick
+      takeName: Take 0
+      firstFrame: 223
+      lastFrame: 234
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Joint
+        weight: 1
+      - path: Joint/Joint.1
+        weight: 1
+      - path: Joint/Joint.1/Joint.2
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4/Joint.5
+        weight: 1
+      - path: Joint/Joint.1/Joint.6
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8/Joint.9
+        weight: 1
+      - path: Joint/Joint.1/Joint.10
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12/Joint.13
+        weight: 1
+      - path: Joint/Joint.1/Joint.14
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16/Joint.17
+        weight: 1
+      - path: Joint/Joint.1/Joint.18
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19/Joint.20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Grab
+      takeName: Take 0
+      firstFrame: 240
+      lastFrame: 259
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Joint
+        weight: 1
+      - path: Joint/Joint.1
+        weight: 1
+      - path: Joint/Joint.1/Joint.2
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4
+        weight: 1
+      - path: Joint/Joint.1/Joint.2/Joint.3/Joint.4/Joint.5
+        weight: 1
+      - path: Joint/Joint.1/Joint.6
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8
+        weight: 1
+      - path: Joint/Joint.1/Joint.6/Joint.7/Joint.8/Joint.9
+        weight: 1
+      - path: Joint/Joint.1/Joint.10
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12
+        weight: 1
+      - path: Joint/Joint.1/Joint.10/Joint.11/Joint.12/Joint.13
+        weight: 1
+      - path: Joint/Joint.1/Joint.14
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16
+        weight: 1
+      - path: Joint/Joint.1/Joint.14/Joint.15/Joint.16/Joint.17
+        weight: 1
+      - path: Joint/Joint.1/Joint.18
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19
+        weight: 1
+      - path: Joint/Joint.1/Joint.18/Joint.19/Joint.20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
